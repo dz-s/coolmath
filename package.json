@@ -1,0 +1,32 @@
+{
+  "name": "coolmath",
+  "version": "1.0.0",
+  "description": "high-precision math",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teriyakigod2/coolmath.git"
+  },
+  "keywords": [
+    "[\"math\"",
+    "\"nan\"]"
+  ],
+  "author": "teriyakigod2",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/teriyakigod2/coolmath/issues"
+  },
+  "homepage": "https://github.com/teriyakigod2/coolmath#readme",
+  "dependencies": {
+    "mocha": "^5.0.0",
+    "nan": "^2.8.0"
+  }
+}
